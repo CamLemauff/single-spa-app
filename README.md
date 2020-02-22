@@ -2,6 +2,31 @@
 
 ## Présentation de la technologie
 
+### Micro-frontend
+L'architecture des micro-frontend est une approche du design dans lequel une application front-end est décomposée en plusieurs "micro-applications" qui vont au final marcher toutes ensembles. C'est une architecture basée sur la technologies des microservices.
+
+Cette technologie a été développé pour répondre à certains problèmes que pouvait engendrer l'architecture frontend monolithique.
+
+Le but de l'architecture monolithique est de construire une application, souvent utilisant la technique du single page, pouvant utiliser des microservices mais qui au fil du temps augmentent de plus en plus et devient de plus en plus difficile à maintenir.
+
+Pour cela, l'architecture micro-frontend a été développé.
+
+![Example architecture microfrontend] (./verticals-headline.png)
+
+#### Avantages
+* Les architectures micro-frontend sont plus simples à manager et à concevoir.
+
+* Des équipes indépendantes l'une d'entre elles peuvent collaborer sur une même application front-end plus facilement
+
+* Cela permet de faire migrer facilement une ancienne application dans une nouvelle application et de permettre aux deux de marcher simultanément. 
+
+#### Inconvénients
+* Les phases de test peuvent se révéler plus compliqués à mettre en place du fait de la différence des langages utilisés et du nombre d'applications différentes crées.
+
+* Il est aussi plus compliqué de débugger ou de trouver la source d'un problème à travers toute l'application
+
+* Il peut aussi exister des problèmes de version entre toutes les différentes technologies utilisées.
+
 ## Objectifs du tutoriel
 
 ### Contexte
