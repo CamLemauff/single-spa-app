@@ -12,4 +12,10 @@ registerApplication(
   () => location.pathname === "/vue"  ? false : true
 );
 
+registerApplication(
+    'vue2',
+    () => import('./src/vue2/vue.app.js'),
+    () => location.pathname === "/react" ? false : true
+);
+
 start();

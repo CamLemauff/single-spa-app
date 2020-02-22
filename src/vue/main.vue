@@ -1,5 +1,6 @@
 <template>
-  <div>
-      <h1>Hello from Vue</h1>
+  <div class="vueIndex">
+      <h1 class="vue">Hello from Vue</h1>
+      <h2> Test </h2>
   </div>
 </template>
