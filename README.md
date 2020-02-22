@@ -11,7 +11,7 @@ Le but de l'architecture monolithique est de construire une application, souvent
 
 Pour cela, l'architecture micro-frontend a été développé.
 
-![Example architecture microfrontend] (./verticals-headline.png)
+![Example architecture microfrontend] (/verticals-headline.png)
 
 #### Avantages
 * Les architectures micro-frontend sont plus simples à manager et à concevoir.
