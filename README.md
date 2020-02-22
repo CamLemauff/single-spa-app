@@ -1,8 +1,20 @@
 # Tutoriel Micro FrontEnd avec single-spa-app
 
-## Si l'on crée un projet single-spa de 0
+## Présentation de la technologie
 
-### Installation du framework single-spa-app
+## Objectifs du tutoriel
+
+### Contexte
+
+### Description
+
+### Résultat/ Connaissances attendues après l'exécution
+
+## Configuration et étapes à suivre
+
+### Si l'on crée un projet single-spa de 0
+
+#### Installation du framework single-spa-app
 
 * Pour créer un nouveau projet à l'aide de single-spa-app, il faut tout d'abord créer un nouveau projet.
 
@@ -19,7 +31,7 @@
   * Le point d'entrée de l'application
   * La fonction d'activité (qui nous dit où charger l'application)
 
-### Création de l'application
+#### Création de l'application
 
 * Ensuite on peut coder chacune de nos application séparement.
 
@@ -31,7 +43,7 @@
 * L'application sera disponible sur l'url:
 http://localhost:8080/
 
-## Si on clone ou importe un projet existant
+### Si on clone ou importe un projet existant
 
 * Pour pouvoir lancer le projet sur sa machine, il faut d'abord faire la commande suivante qui va installer toutes les dépendances nécessaires:
 `npm install`
@@ -41,3 +53,19 @@ http://localhost:8080/
 
 * L'application sera disponible sur l'url:
 http://localhost:8080/
+
+### Explication de l'application de démonstration
+
+Cette application est composée de 3 sous-applications:
+* Une application codée en React
+* Deux applications codées en VueJS
+
+Les applications peuvent être vu ensemble ou séparement grâce aux urls suivantes:
+* http://localhost:8080/react
+* http://localhost:8080/vue
+
+#### Application React
+
+#### Première application vue
+
+#### Deuxième application vue
