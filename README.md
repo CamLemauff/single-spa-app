@@ -13,6 +13,20 @@ Pour cela, l'architecture micro-frontend a été développé.
 
 ![Example architecture microfrontend](/images/verticals_headline.png)
 
+Comme on peut le voir sur le graphique ci-dessus, cette technique permet d'avoir plusieurs équipes indépendantes, travaillant sur des fonctionnalités spécifiques d'une seule et même application, sans avoir à coder qu'un seul front end pour tout. Chaque équipe peut coder la partie du frontend dont elle a la charge et ensuite insérer cela avec le reste.
+
+Les micro-frontend ont été créé à partir de plusieurs idées principales:
+* Pour que chaque équipes puissent faire évoluer leurs technologies et leurs stack sans en avoir à référer tout le temps aux autres équipes du projet.
+* Pour permettre d'isoler le code de chaque équipe et de ne pas se retrouver avec un seul gros bloc de code.
+* Construire un site résistant. Ainsi même si une partie du front-end du site ne marche pas, l'ensemble du site n'est pas pour autant en panne. Le reste du site peut quand même fonctionner pendant ce temps.
+
+### Single-spa-app
+Single-spa-app est un framework de micro-frontend qui sert de router entre plusieurs frameworks front end.
+
+Chaque sous-applications peut êter mises ensembles dans une seule et même application ou alors avoir son propre répertoire et être déployer séparement mais single-spa permet en créant des routes entre chacunes d'entres elles de les rassembler dans un seul endroit.
+
+La plupart des frameworks frontend modernes sont supportés par single-spa, tels que React, Angular ou encore VueJS.
+
 #### Avantages
 * Les architectures micro-frontend sont plus simples à manager et à concevoir.
 
