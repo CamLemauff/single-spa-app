@@ -53,12 +53,6 @@ Les trois sont accédés à partir du fichier index.html
 
 Les trois applications peuvent être vue ensemble ou séparement.
 
-La première application est
-
-La deuxième application est 
-
-La troisième application est
-
 ### Résultat/ Connaissances attendues après l'exécution
 A la fin du tutoriel, on devrait être en mesure de pouvoir créer une application simple utilisant l'architecture micro front-end et de ainsi pouvoir démarrer un projet de 0 grâce à cette architecture.
 
@@ -117,9 +111,3 @@ Cette application est composée de 3 sous-applications:
 Les applications peuvent être vu ensemble ou séparement grâce aux urls suivantes:
 * http://localhost:8080/react
 * http://localhost:8080/vue
-
-#### Application React
-
-#### Première application vue
-
-#### Deuxième application vue
