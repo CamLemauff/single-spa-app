@@ -5,9 +5,10 @@ export default class Root extends React.Component {
     render() {
         return (
             <div class="reactIndex">
-                <nav class="nav">Navbar</nav>
-                <h1>Test React</h1>
-                <h2>Autre test</h2>
+                <h1>Application faite en React</h1>
+                <p>Cette application peut être vue toute seule en cliquant ici: </p>
+                <br/>
+                <a class="button" href="http://localhost:8081/react">React</a>
             </div>
         )
     }
