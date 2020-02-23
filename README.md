@@ -44,10 +44,25 @@ La plupart des frameworks frontend modernes sont supportés par single-spa, tels
 ## Objectifs du tutoriel
 
 ### Contexte
+Le but de ce tutoriel est d'apprendre à créer une application simple utilisant l'architecture des micro-frontend.
 
 ### Description
+L'application est constitué de 3 sous-applications: une codée en React et les deux autres codées en VueJS.
+
+Les trois sont accédés à partir du fichier index.html
+
+Les trois applications peuvent être vue ensemble ou séparement.
+
+La première application est
+
+La deuxième application est 
+
+La troisième application est
 
 ### Résultat/ Connaissances attendues après l'exécution
+A la fin du tutoriel, on devrait être en mesure de pouvoir créer une application simple utilisant l'architecture micro front-end et de ainsi pouvoir démarrer un projet de 0 grâce à cette architecture.
+
+Le concept du micro frontend sera compris et permettra peut être la création de nouveau projet ou la migration d'ancien.
 
 ## Configuration et étapes à suivre
 
@@ -63,7 +78,7 @@ La plupart des frameworks frontend modernes sont supportés par single-spa, tels
 * Il faut ensuite installer les dépendances de single-spa-app et des autres frameworks que l'on souhaiterais utiliser dans le projet (ici react et vue) à l'aide de la commande:
 `npm install react react-dom single-spa single-spa-react single-spa-vue`
 
-* On peut ensuite installer les dépendances supplémentaires dont on aura potentiellement besoin pendant e projet (type babel ou webpack).
+* On peut ensuite installer les dépendances supplémentaires dont on aura potentiellement besoin pendant le projet (type babel ou webpack).
 
 * Il faut ensuite enregistrer nos différents applications qui vont fonctionner en même temps dans le fichier single-spa.config.js en utilisant la fonction registerApplication() qui prends trois arguments.
   * Le nom de l'application
